@@ -1,18 +1,22 @@
 @use '../abstracts/variables';
 
 .btn-red {
-    font-family: "gotham-bold";
-    font-size: 22px;
-    color: #fff;
-    background-color: variables.$color-red;
     border: none;
-    max-width: 160px;
-    min-height: 50px;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: all 0.2s linear;
+    
+    div{
+        display: inline-block;
+        background-color: variables.$color-red;
+        padding: 15px 0;
+        min-width: 150px;
+        max-width: 160px;
+        p{
+            font-family: "gotham-bold";
+            font-size: 22px;
+            color: #fff;
+            text-align: center;
+        }
+    }
 
     &:hover {
         color: #fff;
@@ -21,17 +25,22 @@
 }
 
 .btn-white {
-    font-family: "gotham-bold";
-    font-size: 22px;
-    color: variables.$color-red;
-    background-color: #fff;
     border: none;
-    max-width: 160px;
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: all 0.2s linear;
+
+    div{
+        display: inline-block;
+        min-width: 150px;
+        background-color: #fff;
+        padding: 15px 0;
+        max-width: 160px;
+        p{
+            color: variables.$color-red;
+            font-family: "gotham-bold";
+            font-size: 22px;
+            text-align: center;
+        }
+    }
 
     &:hover {
         color: variables.$color-darkblue;

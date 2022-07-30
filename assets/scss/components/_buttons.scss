@@ -1,7 +1,7 @@
 @use '../abstracts/variables';
 
 .btn-red {
-    font-family: gotham-bold;
+    font-family: "gotham-bold";
     font-size: 22px;
     color: #fff;
     background-color: variables.$color-red;
@@ -21,7 +21,7 @@
 }
 
 .btn-white {
-    font-family: gotham-bold;
+    font-family: "gotham-bold";
     font-size: 22px;
     color: variables.$color-red;
     background-color: #fff;

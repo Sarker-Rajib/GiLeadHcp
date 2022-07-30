@@ -1,12 +1,12 @@
 @use '../abstracts/variables';
 
 body {
-  font-family: gotham-book;
+  font-family: "gotham-book";
   color: variables.$color-black;
 }
 
 .main-title {
-  font-family: gotham-bold;
+  font-family: "gotham-bold";
   font-size: 36px;
   color: variables.$color-red;
 
@@ -16,13 +16,13 @@ body {
 }
 
 .sub-title {
-  font-family: gotham-bold;
+  font-family: "gotham-bold";
   font-size: 22px;
   color: variables.$color-darkblue;
 }
 
 .article p {
-  font-family: gotham-book;
+  font-family: "gotham-book";
   font-size: 18px;
   line-height: 24px;
 }

@@ -1,0 +1,35 @@
+.banner {
+   .banner-top {
+      p {
+         font-family: gotham-book;
+         font-size: 22px;
+         padding-top: 7px;
+         padding-bottom: 7px;
+
+         @media (max-width: 767px) {
+            font-size: 18px;
+         }
+      }
+   }
+
+
+   .banner-bottom {
+
+      h4 {
+         font-family: gotham-bold;
+         font-size: 40px;
+         color: #fff;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         min-height: 80px;
+         
+
+
+         @media (max-width: 767px) {
+            font-size: 28px;
+            min-height: 65px;
+         }
+      }
+   }
+}

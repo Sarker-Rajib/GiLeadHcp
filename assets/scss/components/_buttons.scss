@@ -1,0 +1,40 @@
+@use '../abstracts/variables';
+
+.btn-red {
+    font-family: gotham-bold;
+    font-size: 22px;
+    color: #fff;
+    background-color: variables.$color-red;
+    border: none;
+    max-width: 160px;
+    min-height: 50px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: #fff;
+        background-color: darken(variables.$color-red, 10);
+    }
+}
+
+.btn-white {
+    font-family: gotham-bold;
+    font-size: 22px;
+    color: variables.$color-red;
+    background-color: #fff;
+    border: none;
+    max-width: 160px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+
+    &:hover {
+        color: variables.$color-darkblue;
+        background-color: darken(#fff, 10);
+    }
+}

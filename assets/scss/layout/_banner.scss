@@ -18,7 +18,6 @@
       h4 {
          font-family: gotham-bold;
          font-size: 40px;
-         line-height: 56px;
          color: #fff;
          display: flex;
          align-items: center;
@@ -27,7 +26,7 @@
 
          @media (max-width: 767px) {
             font-size: 28px;
-            line-height: 40px;
+            min-height: 65px;
          }
       }
    }

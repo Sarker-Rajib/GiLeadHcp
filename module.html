@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gilead HCP</title>
   <link rel='shortcut icon' href='assets/images/fav-icon.png' type='image/x-icon'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -15,7 +18,7 @@
   <header class="header">
     <div class="header-top bg-darkblue text-white">
       <div class="container">
-        <div class="d-md-flex justify-content-between align-items center text-center text-white">
+        <div class="d-md-flex justify-content-between text-center">
           <h5>Intended for UK and Ireland Healthcare Professionals</h5>
           <a href="#">Report adverse events</a>
         </div>
@@ -66,7 +69,7 @@
 
       <!-- offcanvas for Mobile Nvigation -->
       <div class="mobile-nav">
-         <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="mobileNAv">
+         <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="mobileNAv" aria-labelledby="mobileNAvLabel">
             <div class="offcanvas-header">
                <img src="assets/images/logo.png" alt="logo">
                <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -204,7 +207,7 @@
       <p>Duration: XXX</p>
       <div class="video  py-4">
         <div class="ratio ratio-21x9">
-          <video src="assets/video/video-demo.mp4" controls></video>
+          <video src="assets/video/video-demo.mp4" type="video/mp4" controls></video>
         </div>
       </div>
 

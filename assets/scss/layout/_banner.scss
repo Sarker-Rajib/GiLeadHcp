@@ -18,14 +18,13 @@
       place-items: center;
 
       h4 {
-         font-family: 'Nanum Gothic', sans-serif;
+         font-family: "gotham-bold";
          font-size: 40px;
          color: #fff;
 
 
          @media (max-width: 767px) {
             font-size: 28px;
-            min-height: 65px;
          }
       }
    }

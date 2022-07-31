@@ -103,7 +103,7 @@
          .mobile-nav-item{
             padding-bottom: 25px;
             a{
-               font-family: gotham-book;
+               font-family: "gotham-book";
                font-size: 22px;
                color: rgb(0, 0, 0);
                transition: all 0.1s ease-in-out;
@@ -128,7 +128,7 @@
          place-items: center;
 
          p{
-            font-family: 'Nanum Gothic', sans-serif;
+            font-family: "gotham-bold";
             font-size: 18px;
 
             @media (max-width: 991px){

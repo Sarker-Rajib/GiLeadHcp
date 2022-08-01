@@ -17,13 +17,20 @@
    }
 
    .article-card{
+      height: 100%;
+      position: relative;
+      border: 1px solid #939598;
+      padding-bottom: 75px;
       .text{
-         border-right: 1px solid #939598;
-         border-bottom: 1px solid #939598;
-         border-left: 1px solid #939598;
 
          p{
             font-size: 16px;
+         }
+
+         .btn-red{
+            position: absolute;
+            left: 16px;
+            bottom: 16px;
          }
       }
    }

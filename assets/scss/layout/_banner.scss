@@ -12,6 +12,23 @@
       }
    }
 
+   .message {
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(#B51026, 0.8);
+      width: 40%;
+      left: 50px;
+      text-align: center;
+      padding: 40px;
+      color: #fff;
+      box-sizing: content-box;
+
+      h3 {
+         font-size: min(max(30px, 3vw), 3vw);
+         font-family: "gotham-bold";
+      }
+   }
+
 
    .banner-bottom {
       display: grid;

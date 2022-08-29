@@ -10,12 +10,30 @@
 }
 
 // section padding
-section{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.pt-40{
+    padding-top: 40px;
+}
 
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
+
+.upto991-pb-80{
+    @media(max-width: 991px){
+        padding-bottom: 80px;
+    }
+}
+
+.upto767-pb-80{
     @media(max-width: 767px){
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 80px;
     }
 }

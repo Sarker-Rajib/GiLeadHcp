@@ -39,30 +39,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Products</a>
+                <a class="nav-link" href="#">Products</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
+                <a href="#" class="nav-link">
                   Resources
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-items">
                   <li><a class="dropdown-item" href="#">Understanding HIV</a></li>
                   <li><a class="dropdown-item" href="#">Tools for HCP</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                <a class="nav-link" href="#" id="navbarDropdown2" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Events
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <ul class="dropdown-items" aria-labelledby="navbarDropdown2">
                   <li><a class="dropdown-item" href="#">Conference highlights</a></li>
                   <li><a class="dropdown-item" href="#">SUMMIT webinar series</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link active" href="#">Contact us</a>
               </li>
             </ul>
           </div>
@@ -110,10 +109,13 @@
 
   <!-- === banner section start === -->
   <section class="banner py-0">
-    <div class="main-banner">
-      <img src="assets/images/banner.png" alt="banner" class="w-100">
+    <div class="main-banner position-relative">
+      <img src="assets/images/banner1.png" alt="banner" class="w-100">
+      <div class="message position-absolute d-none d-lg-block">
+        <h3>Contact us</h3>
+      </div>
     </div>
-    <div class="banner-bottom bg-red text-center">
+    <div class="banner-bottom bg-red text-center py-2 d-block d-lg-none">
       <h4>Contact us</h4>
     </div>
   </section>
@@ -121,12 +123,13 @@
 
 
   <!-- === banner section start === -->
-  <section class="contact-us">
+  <section class="contact-us pt-80">
     <div class="container">
       <div class="address">
         <div class="row">
-          <div class="col-md-6">
-            <h4 class="sub-title pb-2">Great Britain and Northern Ireland <br> Location</h4>
+          <div class="col-md-6 upto991-pb-80">
+            <h4 class="sub-title pb-2">Great Britain and Northern Ireland <br class="d-none d-lg-inline-block">
+              Location</h4>
             <p class="text-preline">Gilead Sciences Limited
               280 High Holborn
               Holborn London
@@ -167,7 +170,7 @@
 
 
   <!-- === footer section start === -->
-  <footer class="footer pt-5">
+  <footer class="footer pt-80">
     <div class="main-footer">
       <div class="container">
         <div class="row">
